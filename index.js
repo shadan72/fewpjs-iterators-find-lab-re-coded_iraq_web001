@@ -3,4 +3,7 @@ const testVar = {}
 function testFunc() {
   return "hi"
 }
-const superbowlWin= testVar.find(won => won ==='W')
+function superbowlWin(array){
+  return array.find(won => array.)
+  )
+}
