@@ -10,5 +10,4 @@ function testFunc() {
 }
 function superbowlWin(record){
   return record.find(won => won.result ==='W')
-  )
 }
