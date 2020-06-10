@@ -9,5 +9,5 @@ function testFunc() {
   return "hi"
 }
 function superbowlWin(record){
-  return record.find(won => won.result ==='W')
+  return record.find(won => won.result =='W')
 }
