@@ -10,7 +10,7 @@ function testFunc() {
 }
 function superbowlWin(record){
   let winner= record.find(won => won.result =='W')
-  if(!!winner)
+  if(winner)
    {
      return winner.result;}
     else{
