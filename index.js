@@ -9,5 +9,8 @@ function testFunc() {
   return "hi"
 }
 function superbowlWin(record){
-  return record.find(won => won.result =='W')
+  let winner= record.find(won => won.result =='W')
+  if(!winner){
+    return undefined;
+  }
 }
