@@ -14,6 +14,6 @@ function superbowlWin(record){
    {
      return undefined;}
     else{
-    return winner;}
+    return undefined;}
   
 }
